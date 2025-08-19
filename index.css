@@ -1,0 +1,58 @@
+.header {
+    display: flex;  
+    justify-content: space-between; 
+    border: 1px solid black;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-items > ul {
+    display: flex;
+    padding: 0px 20px; 
+    list-style-type: none ;
+}
+
+.nav-items > ul > li{
+    padding: 10px;
+    margin: 10px;
+}
+
+.search {
+    padding: 10px;
+}
+
+.resto-container {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 60px;
+}
+
+.resto-card {
+    padding: 5px;
+    width: 200px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.resto-logo {
+    width: 100%;
+    height: 150px;
+    border-radius: 12px;
+}
+
+.resto-card:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 2 px 2px 2px #f0f0f0;
+}
+
+.shimmer-card {
+    width: 200px;
+    background: lightgray;
+    margin: 10px;
+    height: 300px;
+}
